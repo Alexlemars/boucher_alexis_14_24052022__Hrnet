@@ -1,0 +1,60 @@
+.select{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    font-size: 1.7rem;
+    background-color: $color-primary;
+    color: $color-secondary;
+    cursor: pointer;
+    border-radius: 10px 10px 0px 0px;
+    
+    
+
+    &_dropdown{
+        display: block;
+        position: absolute;
+        background-color: $color-primary;
+        width: 297px;
+        font-size: 1.7rem;
+        cursor: pointer;
+        z-index: 100;
+        color: $color-secondary;
+        border-radius: 0px 0px 10px 10px;
+        border: 1px solid black;
+    }
+
+    &_none{
+        display: none;
+    }
+    &_select{
+        padding-left: 3px;
+        display: flex;
+        align-items: center;
+        border-top: 1px solid black;
+        height: 50px;
+    }
+    &_title{
+        color: $color-primary;
+        font-size: 1.7rem;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+   
+
+}
+
+.icon{
+    position: absolute;
+    right:10px;
+
+
+    &_bottom{
+        transform: rotate(180deg);
+    }
+}
+
+
+
