@@ -10,15 +10,17 @@ export default function Dates({className,fors,type,id,name,label,onChanges,value
     const [toggleDate,setToggleDate]=useState(false)
 
     const onChange = (dates)=>{
+      onChanges(dates.toLocaleDateString())
          setDate(dates)
          if(toggleDate){
           setToggleDate(false)
         }else{
           setToggleDate(true)
         } 
-        onChanges(date.toLocaleDateString())
+        
     }
-
+    
+    
 
     const calendarToggle = ()=>{
       if(toggleDate){
@@ -34,7 +36,8 @@ export default function Dates({className,fors,type,id,name,label,onChanges,value
       onChanges(value)
       if(toggleDate){
         setToggleDate(false)
-      } 
+      }
+ 
     }
 
     
@@ -51,7 +54,7 @@ export default function Dates({className,fors,type,id,name,label,onChanges,value
           onClick={calendarToggle}
           onChange={onChangeInput}
           
-           />  
+           />
 
            <div>
            <Calendar className={toggleDate ? "show-calendar" : "hide-calendar"} onChange={onChange} value={date} />
