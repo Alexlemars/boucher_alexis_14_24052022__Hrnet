@@ -1,0 +1,13 @@
+.employees-page{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+
+    &__title{
+        margin-top: 40px;
+        color: $color-secondary;
+        font-size: 3rem;
+    }
+}

@@ -69,6 +69,13 @@
             transform: scale(1.1) ;
         }
     }
+
+    &__error{
+        margin-top: 15px;
+        font-size: 2rem;
+        color: red;
+
+    }
     
     
 }

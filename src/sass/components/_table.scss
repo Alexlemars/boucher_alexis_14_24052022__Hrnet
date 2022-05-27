@@ -1,0 +1,92 @@
+.table{
+    &-container{
+        background-color: $color-secondary;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+        position: relative;
+    }
+    &_style{
+        border-collapse: collapse;
+        width: auto;
+        margin-bottom: 50px;
+        
+        & tbody tr:hover{
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+        & th{
+            text-align: left;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+        & td{
+            font-size: 1.4rem;
+            border-top: 1px solid rgba(0, 0, 0, 0.2);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        }
+        & td,th{
+            padding: 20px 25px;
+            
+        }
+
+        & tbody tr:nth-child(even){
+            background-color: #f3f3f36d;
+        } 
+        & tbody tr:nth-child(even):hover{
+            background-color: rgba(0, 0, 0, 0.1);
+        
+            
+        }
+    }
+    &_flex{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.6rem;
+        &_search input{
+            border-radius: 10px;
+            height: 40px;
+            width: 250px;
+            font-size: 1.4rem;
+        }
+        & select{
+            border-radius: 10px;
+            height: 40px;
+            width: 80px;
+            font-size: 1.4rem;
+        }
+    }
+
+    &_page{
+        display: flex;
+        gap:10px;
+        font-size: 1.5rem;
+        position: absolute;
+        right: 50%;
+        bottom: 15px;
+        align-items: center;
+
+        &_button{
+            font-size: 1.5rem;
+            border-radius: 10px;
+            height: 40px;
+            width: 70px;
+            background-color: rgba(128, 128, 128, 0.434);
+            cursor: pointer;
+        }
+
+        &_previous,&_next{
+            font-size: 1.5rem;
+            color: grey;
+            border-radius: 10px;
+            background-color: $color-secondary;
+            border: none;
+            cursor:default;
+        }
+        
+    }
+
+    
+}
+.icon-carret{
+    font-size: 20px;
+}
