@@ -1,71 +1,69 @@
-# Getting Started with Create React App
+# Argent Bank application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Prerequisites for install
 
-In the project directory, you can run:
+- You need [Git](https://git-scm.com) to clone the repository
 
-### `npm start`
+- You need [Node](https://nodejs.org/en/) to run the npm commands
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Dependencies
 
-### `npm test`
+- [React](https://reactjs.org)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React-router-dom](https://reactrouter.com/web/guides/quick-start) 
 
-### `npm run build`
+- [Sass](https://sass-lang.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Font-awesome](https://fontawesome.com/) 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React-redux](https://react-redux.js.org/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Redux](https://redux.js.org/)
 
-### `npm run eject`
+- [Redux-thunk](https://github.com/reduxjs/redux-thunk)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [react-calendar](https://www.npmjs.com/package/react-calendar)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [alexlemars_75-npm-modal](https://github.com/Alexlemars/boucher_alexis_14_16052022__npm-modal)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Recommended text editor: [Visual Studio Code](https://code.visualstudio.com)
 
-## Learn More
+## Installing and launching Front-End
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository of HRNET:   
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`git clone https://github.com/Alexlemars/boucher_alexis_14_16052022__npm-modal.git`
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+2. Inside this front-end repository, install dependencies:   
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+`npm install`
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+3. Launch front-end on port 3000:   
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+`npm start`
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+4. Front-end is now rendered at URL `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# boucher_alexis_14_24052022__Hrnet
+
+5. URL availables :   
+
+`http://localhost:3000/` for homepage / Form.
+
+`http://localhost:3000/employees` for DataTable.
+
+
+
+
+
+
+## Auteur
+* [Boucher Alexis](https://github.com/Alexlemars)#boucher_alexis_14_24052022__Hrnet
