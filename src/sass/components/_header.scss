@@ -1,0 +1,33 @@
+.header{
+    background-color: white;
+    position: fixed;
+    width: 300px;
+    height: 100%;
+
+    &__title{
+        margin-top: -10px;
+        margin-bottom: 100px;
+        color: $color-primary;
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    &__Link{
+        margin-top: 30px;
+        margin-left: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 1.6rem;
+        height: 80px;
+        width: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $color-primary;
+        border-radius: 50px;
+    }
+    &__Link:hover{
+        border-radius: 50px;
+        background-color: rgba(147, 173, 25, 0.6);
+    }
+}
