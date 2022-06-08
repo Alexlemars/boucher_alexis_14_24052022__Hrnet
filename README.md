@@ -1,4 +1,4 @@
-# Argent Bank application
+# Hrnet application
 
 
 ## Prerequisites for install
