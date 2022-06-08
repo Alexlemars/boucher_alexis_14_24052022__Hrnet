@@ -26,7 +26,7 @@
 
 - [react-calendar](https://www.npmjs.com/package/react-calendar)
 
-- [alexlemars_75-npm-modal](https://github.com/Alexlemars/boucher_alexis_14_16052022__npm-modal)
+- [@alexlemars_75/npm-modal](https://www.npmjs.com/package/@alexlemars_75/npm-modal)
 
 
 - Recommended text editor: [Visual Studio Code](https://code.visualstudio.com)
