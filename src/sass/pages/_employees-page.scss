@@ -4,13 +4,11 @@
     flex-direction: column;
     justify-content:center ;
     align-items: center;
-    position: absolute;
-    left: 25%;
-    top: 20%;
-
+    margin-left: 300px;
 
     &__title{
         margin-bottom: 40px;
+        margin-top: 80px;
         color: $color-secondary;
         font-size: 3rem;
     }

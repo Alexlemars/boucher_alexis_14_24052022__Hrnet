@@ -11,7 +11,7 @@ import { addEmployee } from "../../redux/actions/addEmployee";
 import { departments } from "../../data/departments";
 import { states } from "../../data/states";
 
-export default function EmployeesForm() {
+export default function EmployeesForm({ handleVisible }) {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [dateOfBirth, setDateOfBirth] = useState("");
@@ -21,7 +21,6 @@ export default function EmployeesForm() {
   const [state, setState] = useState("Alabama");
   const [zipCode, setZipCode] = useState("");
   const [department, setDepartment] = useState("Sales");
-  const [button, setButton] = useState(false);
 
   const [validation, setValidation] = useState(true);
 
@@ -82,7 +81,9 @@ export default function EmployeesForm() {
         department
       }))
       
+      handleVisible(e);
       clearInput()
+      setValidation(true);
 
     } else {
       setValidation(false);
