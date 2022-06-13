@@ -5,6 +5,7 @@ import Loading from './component/loading/loading';
 import HomePage from './pages/HomePage';
 import EmployeesPage from './pages/EmployeesPage';
 import Header from './component/header/header';
+import Error from './pages/Error-404'
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage/>} />
         <Route path='/employees' element={<EmployeesPage/>}/>
+        <Route path='*' element={<Error/>}/>
       </Routes>
     </div>
   );
