@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 
 import Title from '../component/title/Title'
 import EmployeesForm from '../component/employees-form/EmployeesForm'
+import Loading from '../component/loading/loading'
 
 import {Modal} from '@alexlemars_75/npm-modal'
 
@@ -25,6 +26,8 @@ export default function HomePage() {
   return (
     <div>
         <main className='home-page'>
+            <Loading/>
+            
             <Title title="Create Employees" className="home-page__subtitle"/>
             <EmployeesForm handleVisible={handleVisible}/>
             <Modal message="Employee Created !"  className={visible ? 'modalVisible' : 'modalNotVisible'}  handleNotVisible={handleNotVisible}/> 

@@ -50,11 +50,11 @@
     border-radius: 50%;
     animation: ldio-ws8rpyzaf3j 1.0204081632653061s cubic-bezier(0,0.2,0.8,1) infinite;
   }.ldio-ws8rpyzaf3j div:nth-child(1) {
-    border-color: #e90c59;
+    border-color: $color-primary;
     animation-delay: 0s;
   }
   .ldio-ws8rpyzaf3j div:nth-child(2) {
-    border-color: #46dff0;
+    border-color: rgb(91, 111, 8);
     animation-delay: -0.5102040816326531s;
   }
   .loadingio-spinner-ripple-j3xdn20uthn {

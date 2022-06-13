@@ -6,6 +6,7 @@ import { NavLink } from 'react-router-dom'
 import Title from '../title/Title'
 
 export default function Header() {
+
   return (
     <div className='header'>
         <div><a href='/'><img className='header_img' src={logo} alt="logo"/></a></div>
