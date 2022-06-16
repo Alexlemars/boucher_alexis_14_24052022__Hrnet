@@ -58,12 +58,11 @@
 
     &_page{
         display: flex;
+        justify-content: center;
         gap:10px;
         font-size: 1.5rem;
-        position: absolute;
-        right: 50%;
-        bottom: 15px;
         align-items: center;
+        margin-bottom: 20px;
 
         &_button{
             font-size: 1.5rem;
@@ -76,11 +75,10 @@
 
         &_previous,&_next{
             font-size: 1.5rem;
-            color: grey;
             border-radius: 10px;
             background-color: $color-secondary;
             border: none;
-            cursor:default;
+            cursor:pointer;
         }
         
     }
@@ -89,6 +87,7 @@
 }
 .icon-carret{
     font-size: 30px;
+    margin-left: 10px;
 }
 .icon-carret_down{
     font-size: 30px;
