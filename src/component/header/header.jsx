@@ -11,8 +11,10 @@ export default function Header() {
     <div className='header'>
         <div><a href='/'><img className='header_img' src={logo} alt="logo"/></a></div>
         <Title title="HRnet" className='header__title'/>
+        <div className='header__links'>
         <NavLink className="header__Link" to="/">Home</NavLink>
         <NavLink to='/employees' className="header__Link">View Current Employees</NavLink>
+        </div>
     </div>
   )
 }

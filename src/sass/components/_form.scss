@@ -26,6 +26,7 @@
     &__input{
         display: flex;
         flex-direction: column;
+        
 
         &-address{
             margin-top: 30px;
@@ -37,6 +38,10 @@
         }
         
         
+    }
+    &__input label{
+        display: flex;
+        flex-direction: column;
     }
     &__input label{
         color: $color-primary;
@@ -78,4 +83,11 @@
     }
     
     
+}
+
+@media (max-width: 1500px) {
+    .employees-form{
+        
+    }
+
 }
