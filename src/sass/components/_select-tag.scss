@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     width: 300px;
-    height: 50px;
+    height: 70px;
     font-size: 1.7rem;
     background-color: $color-primary;
     color: $color-secondary;
@@ -33,7 +33,7 @@
         display: flex;
         align-items: center;
         border-top: 1px solid black;
-        height: 50px;
+        height: 70px;
     }
     &_title{
         color: $color-primary;
@@ -55,6 +55,25 @@
         transform: rotate(180deg);
     }
 }
+@media (max-width: 670px) {
+    .select{
+        width: 200px;
+        font-size: 1.4rem;
+    
+        &_dropdown{
+            width: 197px;
+            font-size: 1.4rem;
+
+        }
+        &_title{
+            font-size: 1.4rem;
+
+        }
+    }
+    
+}
+
+
 
 
 
